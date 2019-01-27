@@ -25,3 +25,26 @@ if ahmetinYasi == mehmetinYasi {
     print("Ahmet'in yaşı büyüktür Mehmetin yaşından.")
 }
 
+//Switch Case Kontrol Yapısı
+let yasi = 41
+switch yasi {
+case 23:
+    print("Ahmet 23 Yaşında")
+case 41:
+    print("Ahmet 41 Yaşında")
+default:
+    print("Hata")
+}
+
+//Başka bir kullanım yöntemi
+let sayi = 24
+switch sayi {
+    case 1...10:
+        print("Sayı 1 ile 10 arasında")
+    case 10...20:
+        print("Sayı 10 ile 20 arasında")
+    case 20...30:
+        print("Sayı 20 ile 30 arasında")
+    default:
+        print("Bu aralıkların dışında!")
+}
